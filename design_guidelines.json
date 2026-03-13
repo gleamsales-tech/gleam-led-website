@@ -1,0 +1,151 @@
+{
+  "project_name": "Gleam LED - Transparent Display Solutions",
+  "design_philosophy": {
+    "theme": "Light",
+    "mood": "Architectural, Invisible, Future-Retail, Professional",
+    "core_principles": [
+      "Clarity over Clutter: The product is 'transparency', so the design must feel open and breathable.",
+      "Data as Art: Technical specs are the hero content for B2B buyers. Display them beautifully.",
+      "Context is King: Show the screen IN ACTION (overlaying buildings), not just floating in void.",
+      "Trustworthy B2B: Clean lines, perfect alignment, no gimmicks."
+    ]
+  },
+  "typography": {
+    "font_family": {
+      "headings": "Manrope, sans-serif",
+      "body": "Inter, sans-serif",
+      "mono": "JetBrains Mono, monospace"
+    },
+    "scaling": {
+      "h1": "text-4xl md:text-6xl font-bold tracking-tight",
+      "h2": "text-3xl md:text-5xl font-semibold tracking-tight",
+      "h3": "text-2xl md:text-3xl font-semibold",
+      "body_large": "text-lg md:text-xl leading-relaxed text-slate-600",
+      "body_default": "text-base leading-relaxed text-slate-600",
+      "caption": "text-sm text-slate-500 uppercase tracking-wider"
+    }
+  },
+  "colors": {
+    "palette": {
+      "primary": {
+        "DEFAULT": "#0f172a",
+        "foreground": "#ffffff"
+      },
+      "secondary": {
+        "DEFAULT": "#f1f5f9",
+        "foreground": "#0f172a"
+      },
+      "accent": {
+        "DEFAULT": "#0ea5e9",
+        "foreground": "#ffffff",
+        "description": "Architectural Blue for primary actions"
+      },
+      "highlight": {
+        "DEFAULT": "#00f0ff",
+        "description": "Electric Cyan for subtle LED glow effects/active states only"
+      },
+      "background": "#ffffff",
+      "surface": "#f8fafc",
+      "border": "#e2e8f0",
+      "muted": "#64748b"
+    },
+    "usage_rules": [
+      "Never use full-screen dark backgrounds (except footer).",
+      "Use 'highlight' color only for 1px borders or small glow effects.",
+      "Text should be 'primary' (slate-900) for headings, 'muted' (slate-600) for body."
+    ]
+  },
+  "layout_strategies": {
+    "container": "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
+    "spacing": {
+      "section_gap": "py-24",
+      "element_gap": "gap-8"
+    },
+    "grids": {
+      "bento_features": "grid grid-cols-1 md:grid-cols-3 gap-6",
+      "product_catalog": "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8",
+      "specs_table": "w-full text-left border-collapse"
+    }
+  },
+  "components": {
+    "buttons": {
+      "primary": "bg-slate-900 text-white hover:bg-slate-800 rounded-none px-8 py-4 font-medium transition-all shadow-sm hover:shadow-md",
+      "secondary": "bg-white text-slate-900 border border-slate-200 hover:bg-slate-50 rounded-none px-8 py-4 font-medium transition-all",
+      "ghost": "text-slate-600 hover:text-slate-900 hover:bg-slate-100 rounded-none px-6 py-3 font-medium transition-all"
+    },
+    "cards": {
+      "product": "group relative bg-white border border-slate-100 hover:border-slate-300 transition-all duration-300 hover:shadow-xl overflow-hidden",
+      "feature": "bg-slate-50 p-8 border border-transparent hover:border-slate-200 transition-all"
+    },
+    "navigation": {
+      "style": "sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-slate-100",
+      "link": "text-sm font-medium text-slate-600 hover:text-slate-900 transition-colors"
+    }
+  },
+  "images_and_assets": {
+    "logo_url": "https://gleamled.com/wp-content/uploads/2025/12/cropped-GT_Logo-removebg-preview-3-e1766785399867.png",
+    "placeholders": {
+      "hero_transparent": "https://images.unsplash.com/photo-1677930075348-5933c68cd46d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1ODR8MHwxfHNlYXJjaHwzfHx0cmFuc3BhcmVudCUyMGxlZCUyMHNjcmVlbiUyMGdsYXNzJTIwZmFjYWRlfGVufDB8fHx8MTc3MzM3NjgwM3ww&ixlib=rb-4.1.0&q=85",
+      "product_lucid": "https://images.unsplash.com/photo-1704392354269-42ad41f15398?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1ODR8MHwxfHNlYXJjaHwxfHx0cmFuc3BhcmVudCUyMGxlZCUyMHNjcmVlbiUyMGdsYXNzJTIwZmFjYWRlfGVufDB8fHx8MTc3MzM3NjgwM3ww&ixlib=rb-4.1.0&q=85",
+      "product_inv": "https://images.unsplash.com/photo-1770902971692-e4b9e3cf3933?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Nzh8MHwxfHNlYXJjaHw0fHxtb2Rlcm4lMjByZXRhaWwlMjBzdG9yZSUyMHdpbmRvdyUyMGRpc3BsYXl8ZW58MHx8fHwxNzczMzc2ODA0fDA&ixlib=rb-4.1.0&q=85",
+      "product_indoor": "https://images.unsplash.com/photo-1749310726959-d8fccfef7ee4?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzNTl8MHwxfHNlYXJjaHwxfHxpbmRvb3IlMjBsZWQlMjB2aWRlbyUyMHNjcmVlbiUyMGNvcnBvcmF0ZSUyMGxvYmJ5fGVufDB8fHx8MTc3MzM3NjgxN3ww&ixlib=rb-4.1.0&q=85",
+      "product_outdoor": "https://images.unsplash.com/photo-1772147743462-8f3258dc3198?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAxODF8MHwxfHNlYXJjaHw0fHxvdXRkb29yJTIwbGVkJTIwYmlsbGJvYXJkJTIwYnVpbGRpbmclMjBmYWNhZGV8ZW58MHx8fHwxNzczMzc2ODE4fDA&ixlib=rb-4.1.0&q=85",
+      "use_case_retail": "https://images.unsplash.com/photo-1767334010488-83cdb8539273?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Nzh8MHwxfHNlYXJjaHwyfHxtb2Rlcm4lMjByZXRhaWwlMjBzdG9yZSUyMHdpbmRvdyUyMGRpc3BsYXl8ZW58MHx8fHwxNzczMzc2ODA0fDA&ixlib=rb-4.1.0&q=85",
+      "use_case_mall": "https://images.unsplash.com/photo-1758448721149-aa0ce8e1b2c9?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzNTl8MHwxfHNlYXJjaHwyfHxpbmRvb3IlMjBsZWQlMjB2aWRlbyUyMHdhbGwlMjBjb3Jwb3JhdGUlMjBsb2JieXxlbnwwfHx8fDE3NzMzNzY4MTd8MA&ixlib=rb-4.1.0&q=85",
+      "use_case_corporate": "https://images.unsplash.com/photo-1771911646904-61f0fc9033e2?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzNTl8MHwxfHNlYXJjaHwzfHxpbmRvb3IlMjBsZWQlMjB2aWRlbyUyMHdhbGwlMjBjb3Jwb3JhdGUlMjBsb2JieXxlbnwwfHx8fDE3NzMzNzY4MTd8MA&ixlib=rb-4.1.0&q=85"
+    }
+  },
+  "content_structure": {
+    "nav_items": ["Home", "Products", "Use Cases", "About Us", "Contact"],
+    "product_categories": [
+      {
+        "id": "transparent",
+        "name": "Transparent LED",
+        "description": "See-through displays for glass facades.",
+        "series": ["LUCID Series", "INV Series"]
+      },
+      {
+        "id": "indoor",
+        "name": "Indoor Display",
+        "description": "High-resolution video walls for interiors.",
+        "series": ["WP Series", "IEC Series", "DC Series"]
+      },
+      {
+        "id": "outdoor",
+        "name": "Outdoor Display",
+        "description": "Weatherproof brightness for billboards.",
+        "series": ["AP Series", "Diamond Series", "GLO Series"]
+      }
+    ],
+    "specs_template": {
+      "columns": ["Feature", "L3 Model", "L3-Pro Model"],
+      "rows": [
+        {"feature": "Pixel Pitch", "val1": "3.91/7.8mm", "val2": "3.91/7.8mm"},
+        {"feature": "Brightness", "val1": "800nits", "val2": "4,200nits"},
+        {"feature": "Transparency", "val1": "60%", "val2": "60%"},
+        {"feature": "Panel Size", "val1": "1000x1000mm", "val2": "1000x1000mm"}
+      ]
+    }
+  },
+  "accessibility": {
+    "contrast": "Ensure all text on image backgrounds has a 'backdrop-blur' or 'bg-white/90' container for readability.",
+    "aria": "All product images must have descriptive alt text (e.g., 'Transparent LED screen on mall facade')."
+  },
+  "instructions_to_main_agent": [
+    "1. Setup Shadcn components: Button, Card, Sheet (mobile menu), Table (for specs), Accordion (FAQs), Input, Textarea, Label.",
+    "2. Implement 'Lucide-React' icons for features (e.g., Sun for brightness, Eye for transparency).",
+    "3. Use the 'manrope' font from Google Fonts or similar.",
+    "4. Create a specific 'ProductDetail' component that accepts a specs object to render the table dynamically.",
+    "5. The Contact Form must include a 'WhatsApp' button action alongside the standard form submission.",
+    "6. Use the images provided in 'images_and_assets' for the respective sections.",
+    "7. Ensure the Navbar is sticky and has a glassmorphism effect (backdrop-blur).",
+    "8. DO NOT use dark mode. Force light mode in tailwind config or body class."
+  ],
+  "UNIVERSAL_GUIDELINES_FOR_MAIN_AGENT": [
+    "Don't make generic centered layouts.",
+    "Create depth through layered design elements.",
+    "Use glass-morphism effects with backdrop filters.",
+    "Every interaction needs micro-animations.",
+    "Use 2-3x more spacing than feels comfortable."
+  ]
+}

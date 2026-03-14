@@ -36,10 +36,19 @@ export default function ContactPage() {
     setError('');
 
     try {
-      const response = await fetch(`${process.env.NEXT_PUBLIC_BACKEND_URL}/api/contact`, {
+      const response = await fetch('https://formspree.io/f/xzdjvlvg', {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(formData),
+        headers: { 
+          'Content-Type': 'application/json',
+          'Accept': 'application/json'
+        },
+        body: JSON.stringify({
+          name: formData.company_name,
+          email: formData.email,
+          phone: formData.phone,
+          product_interest: formData.product_interest,
+          message: formData.requirement,
+        }),
       });
 
       if (response.ok) {

@@ -3,9 +3,9 @@
   "/contact/page": "app/contact/page.js",
   "/portfolio/page": "app/portfolio/page.js",
   "/products/page": "app/products/page.js",
+  "/about/page": "app/about/page.js",
   "/page": "app/page.js",
   "/products/[categoryId]/[seriesId]/page": "app/products/[categoryId]/[seriesId]/page.js",
-  "/about/page": "app/about/page.js",
-  "/products/[categoryId]/page": "app/products/[categoryId]/page.js",
-  "/use-cases/page": "app/use-cases/page.js"
+  "/use-cases/page": "app/use-cases/page.js",
+  "/products/[categoryId]/page": "app/products/[categoryId]/page.js"
 }

@@ -1,1 +1,1 @@
-{"version":1,"functions":{"/about":{},"/":{},"/products/[categoryId]/[seriesId]":{},"/products/[categoryId]":{},"/use-cases":{}}}
+{"version":1,"functions":{"/products/[categoryId]/[seriesId]":{},"/products/[categoryId]":{},"/use-cases":{},"/about":{},"/":{}}}

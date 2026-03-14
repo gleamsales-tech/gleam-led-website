@@ -61,7 +61,7 @@ export default function ContactPage() {
     }
   };
 
-  const phoneNumber = '919876543210';
+  const phoneNumber = '918087693040';
   const whatsappMessage = 'Hi, I am interested in Gleam LED displays. Please share more information.';
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(whatsappMessage)}`;
 

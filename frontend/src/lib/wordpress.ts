@@ -1,8 +1,12 @@
-import { ApolloClient, InMemoryCache, gql } from '@apollo/client';
+import { ApolloClient, InMemoryCache, gql, HttpLink } from '@apollo/client';
 
 // WordPress GraphQL Client
-export const wpClient = new ApolloClient({
+const httpLink = new HttpLink({
   uri: process.env.WORDPRESS_API_URL || 'https://gleamled.com/graphql',
+});
+
+export const wpClient = new ApolloClient({
+  link: httpLink,
   cache: new InMemoryCache(),
 });
 
